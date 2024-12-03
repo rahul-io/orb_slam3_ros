@@ -20,31 +20,33 @@ File.version: "1.0"
 Camera.type: "PinHole"
 
 # Camera calibration and distortion parameters (OpenCV) 
-Camera1.fx: 8.9775967176e+02
-Camera1.fy: 8.9765430756e+02
-Camera1.cx: 5.2563176246e+02
-Camera1.cy: 4.0416865191e+02
+Camera1.fx: 7.9860470567e+02
+Camera1.fy: 7.9873700892e+02
+Camera1.cx: 5.19361949e+02
+Camera1.cy: 3.8673349905e+02
 
-Camera1.k1: 0.17577721  
-Camera1.k2: -0.806569
-Camera1.p1: 2.59978e-04
-Camera1.p2: 3.92804e-03
+Camera1.k1: 0.13789955
+Camera1.k2: 0.03293505
+Camera1.p1: -0.01415277
+Camera1.p2: 0.00142337
+Camera1.k3: -0.89553237
 
-Camera2.fx: 8.9775967176e+02
-Camera2.fy: 8.9765430756e+02
-Camera2.cx: 5.2563176246e+02
-Camera2.cy: 4.0416865191e+02
+Camera2.fx: 7.9860470567e+02
+Camera2.fy: 7.9873700892e+02
+Camera2.cx: 5.19361949e+02
+Camera2.cy: 3.8673349905e+02
 
-Camera2.k1: 0.17577721  
-Camera2.k2: -0.806569
-Camera2.p1: 2.59978e-04
-Camera2.p2: 3.92804e-03
+Camera2.k1: 0.13789955
+Camera2.k2: 0.03293505
+Camera2.p1: -0.01415277
+Camera2.p2: 0.00142337
+Camera2.k3: -0.89553237
 
-Camera.width: 2592
-Camera.height: 1944
+Camera.width: 640
+Camera.height: 480
 
 # Camera frames per second 
-Camera.fps: 1
+Camera.fps: 30
 
 # Color order of the images (0: BGR, 1: RGB. It is ignored if images are grayscale)
 Camera.RGB: 0
